@@ -1,0 +1,2 @@
+http://www.instructables.com/id/How-to-Make-a-Raspberry-Pi-SuperComputer/
+Will be using this for software networking
