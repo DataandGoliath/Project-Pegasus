@@ -1,0 +1,5 @@
+gedit (Since nano is annoying me with "received sighup or sigterm" errors and Vi isn't working with me (And death to Emacs.) Suggestions to fix welcome.)
+nmap - for discovery of other machines in cluster to add to a machinefile
+MPich
+gfortran
+python-dev
