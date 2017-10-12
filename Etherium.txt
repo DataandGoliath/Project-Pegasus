@@ -1,3 +1,5 @@
+http://ethpool.org/
+
 just open terminal and put commands: 
 sudo apt-get clean 
 sudo add-apt-repository -y ppa:ethereum/ethereum-qt 
