@@ -1,0 +1,16 @@
+just open terminal and put commands: 
+sudo apt-get clean 
+sudo add-apt-repository -y ppa:ethereum/ethereum-qt 
+sudo add-apt-repository -y ppa:ethereum/ethereum 
+sudo apt-get update 
+sudo apt-get install cpp-ethereum
+
+That's it, you have installed c++ version of ethereum and ethminer included
+You dont neet to set up account on local, you can mine directly to exchange
+
+Now how connect to pool?
+ethminer -G -F http://ethereumpool.co/?miner=10@0x54e8efbd6138011efe9b028e489f6a0bc650e451@OptionalRigName
+
+ethminer -G -F http://ethereumpool.co/?miner=[HASHRATE IN MHASH]@[ADDRESS]@[OPTIONAL RIG NAME]
+(without brackets)
+-G means mining on GPU, if you want try cpu, just do NOT put G Minimal hashrate = 0.01 MHash
