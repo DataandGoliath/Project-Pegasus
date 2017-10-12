@@ -2,6 +2,7 @@ http://ethpool.org/
 
 just open terminal and put commands: 
 sudo apt-get clean 
+sudo apt-get install software-properties-common
 sudo add-apt-repository -y ppa:ethereum/ethereum-qt 
 sudo add-apt-repository -y ppa:ethereum/ethereum 
 sudo apt-get update 
